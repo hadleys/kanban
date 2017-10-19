@@ -38,6 +38,8 @@
 			                id=ViewCtlFolder style="width:100%;height: 26em;">
 			            <param name="Namespace" value="MAPI">
 			            <param name="Folder" value="Tasks\Backlog">
+				<param name="View" value="ByCategory">
+				<param name="Restriction" value=" [Categories] = 'DMA' ">
 			            <param name="DeferUpdate" value="0">
 						</OBJECT>
 					</div>
@@ -47,7 +49,8 @@
 			                id=ViewCtlFolder style="width:100%;height: 26em;">
 			            <param name="Namespace" value="MAPI">
 			            <param name="Folder" value="Tasks\OnDeck">
-			            <param name="DeferUpdate" value="0">
+			            <param name="Restriction" value=" [Categories] = 'DMA' ">
+				<param name="DeferUpdate" value="0">
 						</OBJECT>
 					</div>
 					<div class="col-md-4 col-xs-4 bg-success">
@@ -56,7 +59,8 @@
 			                id=ViewCtlFolder style="width:100%;height: 26em;">
 			            <param name="Namespace" value="MAPI">
 			            <param name="Folder" value="Tasks\InProgress">
-			            <param name="DeferUpdate" value="0">
+			            <param name="Restriction" value=" [Categories] = 'DMA' ">
+							<param name="DeferUpdate" value="0">
 						</OBJECT>
 					</div>
 				</div>
